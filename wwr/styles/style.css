@@ -26,29 +26,29 @@ h4{
     background-color: #255F85; 
 }
 .book, .join{
-    background-color: #C5283D; 
-    color: #E9724C;
+    background-color: #255F85; 
+    color: #FFC857;
     text-decoration: none;
 }
 .book:hover, .join:hover{
-    background-color: #255F85; 
-    color: #FFC857;
+    background-color: #4cbde9; 
+    color: #C5283D;
 }
 .msg h2{
     background-color: #255F85; 
     color: #FFC857;
 }
 .msg p{
-    background-color: #258585; 
-    color: #ff7957;
+    background-color: #255F85; 
+    color: #FFC857;
 }
 footer{
     background-color: #0c0b5a; 
     color: #705011;
 }
 footer a{
-    background-color: #255F85; 
-    color: #FFC857;
+    background-color: #0c0b5a; 
+    color: #705011;
     text-decoration: none;
 }
 footer a:hover{
