@@ -5,24 +5,24 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: black;
-  --secondary-color: white;
+  --primary-color: #E2DFDF;
+  --secondary-color: #333232;
   --accent1-color: #0F62E4;
-  --accent2-color: #828E82;
+  --accent2-color: #E4572E;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Montserrat";
-  --paragraph-font: "Roboto Mono";
+  --heading-font: 'Montserrat', sans-serif;
+  --paragraph-font: 'Roboto Mono', monospace;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: black;  /* headlines on a white background */ 
+  --headline-color-on-white: #333232;  /* headlines on a white background */ 
   --headline-color-on-color: #0F62E4; /* headlines on a colored background */ 
-  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #0F62E4; /* paragraph text on a colored background */ 
-  --paragraph-background-color: white  ;
-  --nav-link-color: #828E82;
-  --nav-background-color: black;
-  --nav-hover-link-color: white;
+  --paragraph-color-on-white: #333232; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #E2DFDF; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #0F62E4;
+  --nav-link-color: #E4572E;
+  --nav-background-color: #E2DFDF;
+  --nav-hover-link-color: #E4572E;
   --nav-hover-background-color: #0F62E4;
 }
 
