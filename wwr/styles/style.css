@@ -227,13 +227,12 @@ main section img {
 
 .rivers-grid {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 20px;
+    color: #FFC857
   }
   
-  .image1,
-  .image2,
-  .image3 {
+  .image1, .image2,  .image3 {
     display: flex;
     align-items: center;
     width: 100%;
@@ -243,14 +242,11 @@ main section img {
     flex-direction: row-reverse;
   }
   
-  .image1 .river1,
-  .image2 .river2,
-  .image3 .river3 {
-    width: 100%; 
+  .image1 .river1, .image2 .river2, .image3 .river3 {
+    width: 300px; 
+    height: 300px;
   }
   
-  .image1 h2,
-  .image2 h2,
-  .image3 h2 {
+  .image1 h2, .image2 h2, .image3 h2 {
     margin-left: 20px;
   }
