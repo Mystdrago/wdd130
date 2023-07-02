@@ -50,20 +50,20 @@ main section {
     grid-row: 1 / 2;
 }
 .home-grid .brand{
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     grid-column: 2 / 3;
     grid-row: 3 / 4;
 }
 .home-grid .me{
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     grid-column: 4 / 5;
     grid-row: 3 / 4;
 }
 .home-grid .pfp{
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     grid-column: 6 / 7;
     grid-row: 3 / 4;
 }
