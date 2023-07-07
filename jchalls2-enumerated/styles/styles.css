@@ -1,39 +1,52 @@
+header {
+    background-color: #271801; 
+    display: grid;
+    grid-template-columns: 210px auto;
+    font-family: "Roboto Mono", "Arial", "sans-serif";
+    align-items: center;
+}
 body {
     background-color: #E2DFDF;
     color: #333232;  
-    font-family: "Roboto Mono", "Arial", "sans-serif";
+    font-family: "Montserrat", "Arial", "sans-serif";
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
-header {
-    background-color: #9e9c9c; 
-    display: grid;
-    grid-template-columns: 150px auto;
-    font-family: "Montserrat", "Arial", "sans-serif";
+.content {
+    background-color: #271801;
+    overflow: hidden;
+
 }
 nav {
-    background-color: #9e9c9c; 
-    color: #332c2c;
+    background-color: #271801; 
+    color: #F7BF4F;
     display: flex;
-    justify-content: space-around;
 }
 nav a {
     text-decoration: none;
     text-align: center;
-    background-color: #9e9c9c; 
-    color: #332c2c;
+    background-color: #271801; 
+    color: #F7BF4F;
     padding: 35px;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: left;
 }
 nav a:hover{
     background-color: #E2DFDF; 
     color: #333232;
 }
+nav a.active {
+    background-color: #271801; 
+    color: #F7BF4F;
+}
+
 
 main {
    background-color: #E2DFDF;
     color: #333232;  
-    font-family: "Open Sans", "Arial", "sans-serif";
+    font-family: "Montserrat", "Arial", "sans-serif";
     font-size: 22px;
     margin: 0;
     padding: 0; 
@@ -44,10 +57,14 @@ main {
 main section {
     text-align: center;
 }
+.home-grid a {
+    text-decoration: none;
+}
 .home-grid .paragraph1 {
     text-align: left;
     grid-column: 1 / 8;
     grid-row: 1 / 2;
+    padding: 2% 2% 5%;
 }
 .home-grid .brand{
     max-width: 200px;
@@ -68,22 +85,22 @@ main section {
     grid-row: 3 / 4;
 }
 footer{
-    background-color: #9e9c9c; 
-    color: #332c2c;
+    background-color: #271801; 
+    color: #F7BF4F;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 footer a{
-    background-color: #9e9c9c; 
-    color: #332c2c;
+    background-color: #271801; 
+    color: #F7BF4F;
     text-decoration: none;
 }
 footer a:hover{
-    background-color: #E2DFDF; 
-    color: #333232;
+    background-color: #271801; 
+    color: #F7BF4F;
 }
 footer p{
     text-decoration: none;
