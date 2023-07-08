@@ -42,9 +42,11 @@ nav a.active {
     color: #F7BF4F;
 }
 
-
-main {
-   background-color: #E2DFDF;
+main section {
+    text-align: center;
+}
+.home-grid {
+    background-color: #E2DFDF;
     color: #333232;  
     font-family: "Montserrat", "Arial", "sans-serif";
     font-size: 22px;
@@ -52,11 +54,9 @@ main {
     padding: 0; 
     display: grid;
     grid-template-columns: 1fr 200px 1fr 200px 1fr 200px 1fr;
-    grid-template-rows: 1fr 300px 1fr;
+    grid-template-rows: 1fr 300px 400px;
 }
-main section {
-    text-align: center;
-}
+
 .home-grid a {
     text-decoration: none;
 }
@@ -84,6 +84,106 @@ main section {
     grid-column: 6 / 7;
     grid-row: 3 / 4;
 }
+
+.gallery-grid {
+    background-color: #E2DFDF;
+    color: #333232;  
+    font-family: "Montserrat", "Arial", "sans-serif";
+    font-size: 22px;
+    margin: 0;
+    padding: 0; 
+    display: grid;
+    grid-template-columns: 100px 1fr 100px 1fr 100px 1fr 100px;
+    grid-template-rows: 100px 1fr 100px 1fr 100px 1fr 100px;
+}
+
+.gallery-grid a {
+    text-decoration: none;
+}
+
+.gallery-grid .paragraph3 {
+    text-align: left;
+    grid-column: 2 / 7;
+    grid-row: 2 / 3;
+}
+
+.gallery-grid .pic1{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.gallery-grid .pic2{
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+
+.gallery-grid .pic3{
+    grid-column: 6 / 7;
+    grid-row: 4 / 5;
+}
+
+.gallery-grid .pic4{
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+
+.gallery-grid .pic5{
+    grid-column: 4 / 5;
+    grid-row: 6 / 7;
+}
+
+.gallery-grid .pic6{
+    grid-column: 6 / 7;
+    grid-row: 6 / 7;
+}
+
+.rpg-grid {
+    background-color: #E2DFDF;
+    color: #333232;  
+    font-family: "Montserrat", "Arial", "sans-serif";
+    font-size: 22px;
+    margin: 0;
+    padding: 0; 
+    display: grid;
+    grid-template-columns: 10px 400px 10px 1fr 10px;
+    grid-template-rows: 100px 1fr 10px 1fr 10px 1fr 100px;
+}
+
+.rpg-grid a {
+    text-decoration: none;
+}
+
+.rpg-grid .paragraph2 {
+    text-align: left;
+    grid-column: 2 / 5;
+    grid-row: 2 / 3;
+}
+
+.rpg-grid .dice {
+    max-width: 400px;
+    max-height: 400px;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+
+}
+.rpg-grid .dice-text {
+    text-align: left;
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+.rpg-grid .paper {
+    max-width: 400px;
+    max-height: 400px;
+    grid-column: 2 / 3; 
+    grid-row: 6 / 7;
+}
+.rpg-grid .paper-text {
+    text-align: left;
+    grid-column: 4 / 5; 
+    grid-row: 6 / 7;
+}
+
+
 footer{
     background-color: #271801; 
     color: #F7BF4F;
