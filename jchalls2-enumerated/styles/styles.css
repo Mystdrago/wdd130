@@ -153,8 +153,8 @@ main section {
 .rpg-grid .dice {
     max-width: 400px;
     max-height: 400px;
-    width: auto;
-    height:auto;
+    width: 400px;
+    height: 400px;
     grid-column: 2 / 3;
     grid-row: 4 / 5;
 
@@ -167,8 +167,8 @@ main section {
 .rpg-grid .paper {
     max-width: 400px;
     max-height: 400px;
-    width: auto;
-    height:auto;
+    width: 400px;
+    height: 400px;
     grid-column: 2 / 3; 
     grid-row: 6 / 7;
 }
