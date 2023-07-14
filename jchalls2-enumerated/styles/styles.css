@@ -6,6 +6,7 @@ header {
     grid-template-columns: 210px auto;
     font-family: "Roboto Mono", "Arial", "sans-serif";
     align-items: center;
+    width: 100%;
     max-width: 1400px;
 }
 body {
@@ -15,7 +16,9 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
+    width: 100%;
     max-width: 1400px;
+
 }
 .content {
     background-color: #271801;
@@ -190,6 +193,7 @@ footer{
     background-color: #271801; 
     color: #F7BF4F;
     width: 100%;
+    max-width: 1400px;
     padding: 25px 50px;
     margin-top: 20px;
     display: flex;
