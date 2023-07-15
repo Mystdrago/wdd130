@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap');
 
+#content {
+    overflow: hidden;
+    width: 100%;
+    max-width: 2000px;
+}
 header {
     background-color: #271801; 
     display: grid;
     grid-template-columns: 210px auto;
     font-family: "Roboto Mono", "Arial", "sans-serif";
     align-items: center;
-    width: 100%;
-    max-width: 1400px;
 }
 body {
     background-color: #E2DFDF;
@@ -16,13 +19,6 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
-    width: 100%;
-    max-width: 1400px;
-
-}
-.content {
-    background-color: #271801;
-    overflow: hidden;
 }
 nav {
     background-color: #271801; 
@@ -93,7 +89,7 @@ main section {
     padding: 0; 
     display: grid;
     grid-template-columns: 100px 1fr 100px 1fr 100px 1fr 100px;
-    grid-template-rows: 100px 1fr 100px 1fr 100px 1fr 100px;
+    grid-template-rows: 100px 100px 100px 1fr 100px 1fr 100px;
 }
 
 .gallery-grid a {
@@ -147,7 +143,7 @@ min-height: 400px;
     padding: 0; 
     display: grid;
     grid-template-columns: 10px 400px 10px 1fr 10px;
-    grid-template-rows: 100px 1fr 10px 1fr 10px 1fr 100px;
+    grid-template-rows: 100px 200px 10px 1fr 10px 1fr 100px;
 }
 
 .rpg-grid a {
@@ -192,8 +188,6 @@ min-height: 400px;
 footer{
     background-color: #271801; 
     color: #F7BF4F;
-    width: 100%;
-    max-width: 1400px;
     padding: 25px 50px;
     margin-top: 20px;
     display: flex;
